@@ -88,5 +88,4 @@ select r.room_type, count(*) as so_luot_dat
 from bookings b
 join rooms r on b.room_id = r.room_id
 group by r.room_type
-order by so_luot_dat desc
 limit 1;
