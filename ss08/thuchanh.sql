@@ -89,3 +89,4 @@ from bookings b
 join rooms r on b.room_id = r.room_id
 group by r.room_type
 limit 1;
+
